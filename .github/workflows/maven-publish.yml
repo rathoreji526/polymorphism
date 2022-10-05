@@ -25,3 +25,5 @@ jobs:
     - name: Junit Assignment Action
       id: assignmentAction
       uses: acciojob/junit-github-action@v0.8
+      env:
+          ACCIO_ASGMNT_ACTION_TOKEN: ${{ secrets.ACCIO_ASGMNT_ACTION_TOKEN }}
