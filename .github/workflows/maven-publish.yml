@@ -26,4 +26,4 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Junit Assignment Action
       id: assignmentAction
-      uses: iam-abhi/junit-github-action@v0.8
+      uses: acciojob/junit-github-action@v0.8
